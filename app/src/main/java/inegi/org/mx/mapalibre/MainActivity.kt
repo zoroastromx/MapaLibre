@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
        // }
     }
 
-    verride fun onStart() {
+    override fun onStart() {
         super.onStart()
         mapView.onStart()
     }
